@@ -38,10 +38,11 @@ print("The smallest number is:", small)
 
 if num1 == num2 == num3:
     print("All numbers are equal.")
-if num1 == num2:
-    print("{num1} is equal to {num2}.")
-if num1 == num3:
-    print("{num1} is equal to {num3}.")
-if num2 == num3:
-    print("{num2} is equal to {num3}.")
-
+elif num1 == num2:
+    print(f"{num1} is equal to {num2}." "The largest number is:", large, "The smallest number is:", small)
+elif num2 == num3:
+    print(f"{num2} is equal to {num3}.""The largest number is:", large, "The smallest number is:", small)
+elif num1 == num3:
+    print(f"{num1} is equal to {num3}.""The largest number is:", large, "The smallest number is:", small)
+else:
+    print("Please enter 3 numbers.")
