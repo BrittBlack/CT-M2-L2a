@@ -1,0 +1,47 @@
+#Task 1: Identify the Greatest
+#
+#
+#
+#
+num1 = int(input("Enter 1st number: "))
+num2 = int(input("Enter 2nd number: "))
+num3 = int(input("Enter 3rd number: "))
+
+large = num1
+
+if num2 > num1:
+    large = num2
+if num3 > num1:
+    large = num3
+
+print("The largest number is:", large )
+
+#
+#
+#
+#
+#Task 2: Identify the Smallest
+
+small = num1
+
+if num2 < num3:
+    small = num1
+if num3 < num1:
+    small = num3
+print("The smallest number is:", small)
+
+#
+#
+#
+#
+#Task 3: Equality Check
+
+if num1 == num2 == num3:
+    print("All numbers are equal.")
+if num1 == num2:
+    print("{num1} is equal to {num2}.")
+if num1 == num3:
+    print("{num1} is equal to {num3}.")
+if num2 == num3:
+    print("{num2} is equal to {num3}.")
+
