@@ -7,14 +7,16 @@ num1 = int(input("Enter 1st number: "))
 num2 = int(input("Enter 2nd number: "))
 num3 = int(input("Enter 3rd number: "))
 
-large = num1
 
+
+large = num1
+   
 if num2 > num1:
     large = num2
-if num3 > num1:
+elif num3 > num1:
     large = num3
-
-print("The largest number is:", large )
+else: 
+    print("The largest number is:", large )
 
 #
 #
@@ -23,12 +25,13 @@ print("The largest number is:", large )
 #Task 2: Identify the Smallest
 
 small = num1
-
+   
 if num2 < num3:
     small = num1
-if num3 < num1:
+elif num3 < num1:
     small = num3
-print("The smallest number is:", small)
+else:
+    print("The smallest number is:", small)
 
 #
 #
@@ -45,4 +48,4 @@ elif num2 == num3:
 elif num1 == num3:
     print(f"{num1} is equal to {num3}.""The largest number is:", large, "The smallest number is:", small)
 else:
-    print("Please enter 3 numbers.")
+    print("All numbers are not equal.")
