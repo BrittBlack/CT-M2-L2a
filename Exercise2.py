@@ -40,8 +40,10 @@ print("The smallest number is:", small)
 if num1 == num2 == num3:
     print("All numbers are equal.")
 elif num1 == num2:
-    print(f"{num1} is equal to {num2}." "The largest number is:" large, "The smallest number is:" small)
+    print(f"{num1} is equal to {num2}." "The largest number is:", large, "The smallest number is:", small)
 elif num2 == num3:
-    print(f"{num2} is equal to {num3}.""The largest number is:"  large, "The smallest number is:" small)
+    print(f"{num2} is equal to {num3}.""The largest number is:",  large, "The smallest number is:", small)
 elif num1 == num3:
-    print(f"{num1} is equal to {num3}.""The largest number is:" large, "The smallest number is:" small)
+    print(f"{num1} is equal to {num3}.""The largest number is:", large, "The smallest number is:", small)
+
+#can operate without else statement
