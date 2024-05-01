@@ -7,11 +7,11 @@ year = int(input("Please enter a year: " ))
 
 if year % 4 == 0 :
     print("This year is a leap year!")
-if year % 100 == 0 :
-    print("This is just another year.")
-if year % 400 == 0 :
-    print("This year is a leap year!")
 
-#can't use elif or program would look for alternative instead original conditions
+elif year % 100 == 0 :
+        print("This is just another year.")
+elif year % 400 == 0 :
+        print("This year is a leap year!")
 else:
     print("This is just another year.")
+#can't use elif or program would look for alternative instead original conditions
