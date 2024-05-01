@@ -7,7 +7,7 @@ year = int(input("Please enter a year: " ))
 
 if year % 4 == 0 :
     print("This year is a leap year!")
-
+    
 elif year % 100 == 0 :
         print("This is just another year.")
 elif year % 400 == 0 :
